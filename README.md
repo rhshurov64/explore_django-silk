@@ -9,3 +9,9 @@ Django Silk is a profiling and monitoring tool for Django applications. It helps
 3. Profiling Views: You can monitor the performance of views in your Django project and see how much time is spent in each view.
 4. Cache Monitoring: It allows you to monitor the cache hit/miss ratios and how long it takes to fetch cached data.
 5. Detailed Reports: Provides a dashboard that displays all collected profiling data, making it easier to spot potential bottlenecks.
+
+
+# Why Use Django Silk?
+1. Optimize Performance: With Silk, you can identify inefficient database queries, unoptimized view functions, or slow responses.
+2. Database Query Monitoring: It helps you track database queries, showing which queries are taking too long and need optimization.
+3. Visual Reports: Silk provides detailed reports and dashboards, making it easy to understand your app's performance at a glance.
