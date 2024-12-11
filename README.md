@@ -15,3 +15,16 @@ Django Silk is a profiling and monitoring tool for Django applications. It helps
 1. Optimize Performance: With Silk, you can identify inefficient database queries, unoptimized view functions, or slow responses.
 2. Database Query Monitoring: It helps you track database queries, showing which queries are taking too long and need optimization.
 3. Visual Reports: Silk provides detailed reports and dashboards, making it easy to understand your app's performance at a glance.
+
+
+# Monitoring the permormances
+# -----------------------------------------------------
+
+# Summerry
+![alt text](<Screenshot from 2024-12-11 18-20-35.png>)
+
+# Request Overview
+![alt text](<Screenshot from 2024-12-11 18-20-47.png>)
+
+# Request Query Details
+![alt text](<Screenshot from 2024-12-11 18-21-03.png>)
