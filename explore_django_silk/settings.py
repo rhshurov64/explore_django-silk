@@ -154,6 +154,8 @@ SILKY_MAX_REQUESTS = 1000
 # Track only requests with status 2xx and 3xx (can ignore 4xx and 5xx)
 SILKY_IGNORE_STATUSES = [404, 500]
 
+SILKY_IGNORE_PATHS = ["/admin", "/static"]
+
 # Enable Silk's data collection from the query count
 SILKY_CLEANUP_ON_START = True
 

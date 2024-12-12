@@ -11,6 +11,7 @@ router.register("test-data-viewset", views.TestDataViewSet)
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("test-data/", views.TestDataAPIView.as_view()),
+    path("author-book/", views.BookListView.as_view()),
     path("", include(router.urls)),
 ]
 
