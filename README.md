@@ -35,10 +35,9 @@ Django Silk is a profiling and monitoring tool for Django applications. It helps
 
 
 
-
+# -----------------------------------------------------
 
 # Monitoring the permormances
-# -----------------------------------------------------
 
 # Summerry
 ![alt text](<Screenshot from 2024-12-11 18-20-35.png>)
