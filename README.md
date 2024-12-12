@@ -17,6 +17,26 @@ Django Silk is a profiling and monitoring tool for Django applications. It helps
 3. Visual Reports: Silk provides detailed reports and dashboards, making it easy to understand your app's performance at a glance.
 
 
+
+## Comparison Table: Django Silk vs Django Debug Toolbar
+
+| **Feature**                    | **Django Silk**                           | **Django Debug Toolbar**               |
+|--------------------------------|------------------------------------------|----------------------------------------|
+| **Primary Use Case**            | Profiling performance, detecting slow queries, and code profiling | Debugging SQL queries, templates, and middleware |
+| **SQL Query Analysis**          | Detailed with query timing and N+1 detection | Detailed, with duplicate query detection |
+| **Python Code Profiling**       | Yes (with `@silk_profile` decorator)     | No                                     |
+| **Historical Data**             | Yes (stored in the database)             | No                                     |
+| **Interactive UI**              | Minimal                                  | Highly interactive                     |
+| **Production Use**              | Limited (debug mode only)                | Not recommended                        |
+| **Ease of Setup**               | Medium (middleware + database)           | Very easy (middleware only)            |
+| **Request/Response Profiling**  | Yes                                      | Yes                                    |
+| **Template Rendering Debugging**| No                                       | Yes                                    |
+| **Overhead**                    | Slightly higher                          | Lower                                  |
+
+
+
+
+
 # Monitoring the permormances
 # -----------------------------------------------------
 
